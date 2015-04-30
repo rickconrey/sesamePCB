@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 4/28/2015 3:08:30 PM
+
+BeginCmp
+TimeStamp = /553FFEB3;
+Reference = C1;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /553D67DA;
+Reference = P1;
+ValeurCmp = CONN_02X25;
+IdModule  = Socket_Strips:Socket_Strip_Straight_2x25;
+EndCmp
+
+BeginCmp
+TimeStamp = /553FF8C4;
+Reference = P2;
+ValeurCmp = CONN_01X02;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_2pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /553D67F7;
+Reference = P3;
+ValeurCmp = CONN_02X25;
+IdModule  = Socket_Strips:Socket_Strip_Straight_2x25;
+EndCmp
+
+BeginCmp
+TimeStamp = /553D6814;
+Reference = P4;
+ValeurCmp = CONN_01X20;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /553D6831;
+Reference = P5;
+ValeurCmp = CONN_01X20;
+IdModule  = Socket_Strips:Socket_Strip_Straight_1x20;
+EndCmp
+
+BeginCmp
+TimeStamp = /553D6DE4;
+Reference = Q1;
+ValeurCmp = ZTX1049a;
+IdModule  = Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-I_SmallPads;
+EndCmp
+
+BeginCmp
+TimeStamp = /553D6F67;
+Reference = R1;
+ValeurCmp = 470;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /553D6FB4;
+Reference = R2;
+ValeurCmp = 220;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+EndListe
