@@ -7,5 +7,6 @@
 *.ses
 *.bin
 *.dsn
+*.zip
 *autosave*
 *cache*
