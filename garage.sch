@@ -220,7 +220,7 @@ Text Notes 8475 7625 0    60   ~ 0
 Text Notes 7425 7500 0    60   ~ 0
 sesame pcb
 Text Notes 10600 7625 0    60   ~ 0
-1
+A
 Text GLabel 3900 1700 0    39   Input ~ 0
 Garage+
 Text GLabel 3900 1800 0    39   Input ~ 0
