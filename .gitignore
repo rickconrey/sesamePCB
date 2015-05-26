@@ -10,3 +10,5 @@
 *.zip
 *autosave*
 *cache*
+*.svg
+*.plt
