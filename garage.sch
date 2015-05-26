@@ -89,17 +89,6 @@ F 3 "" H 8900 4775 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ZTX1049a Q1
-U 1 1 553D6DE4
-P 6600 2225
-F 0 "Q1" H 6600 2076 40  0000 R CNN
-F 1 "ZTX1049a" H 6600 2375 40  0000 R CNN
-F 2 "Transistors_OldSowjetAera:OldSowjetaera_Transistor_Type-I_SmallPads" H 6500 2327 29  0000 C CNN
-F 3 "" H 6600 2225 60  0000 C CNN
-	1    6600 2225
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R1
 U 1 1 553D6F67
 P 5950 2225
@@ -216,11 +205,11 @@ Wire Wire Line
 Wire Wire Line
 	3600 4450 3475 4450
 Text Notes 8475 7625 0    60   ~ 0
-04/26/15
+05/26/15
 Text Notes 7425 7500 0    60   ~ 0
 sesame pcb
 Text Notes 10600 7625 0    60   ~ 0
-A
+B
 Text GLabel 3900 1700 0    39   Input ~ 0
 Garage+
 Text GLabel 3900 1800 0    39   Input ~ 0
@@ -249,4 +238,20 @@ F 3 "" H 7550 5900 60  0000 C CNN
 $EndComp
 Text GLabel 7550 6100 3    39   Input ~ 0
 GND
+Text GLabel 6500 2550 0    39   Input ~ 0
+GND
+Wire Wire Line
+	6500 2550 6700 2550
+Connection ~ 6700 2550
+$Comp
+L 2N3904 Q1
+U 1 1 5564EB52
+P 6600 2225
+F 0 "Q1" H 6600 2076 40  0000 R CNN
+F 1 "2N3904" H 6600 2375 40  0000 R CNN
+F 2 "TO92" H 6500 2327 29  0000 C CNN
+F 3 "" H 6600 2225 60  0000 C CNN
+	1    6600 2225
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
