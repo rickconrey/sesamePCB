@@ -99,21 +99,10 @@ F 3 "" H 5950 2225 30  0000 C CNN
 	1    5950 2225
 	0    1    1    0   
 $EndComp
-$Comp
-L R R2
-U 1 1 553D6FB4
-P 6700 1700
-F 0 "R2" V 6780 1700 50  0000 C CNN
-F 1 "220" V 6707 1701 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6630 1700 30  0001 C CNN
-F 3 "" H 6700 1700 30  0000 C CNN
-	1    6700 1700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6200 2225 6400 2225
 Wire Wire Line
-	6700 2025 6700 1950
+	6700 1850 6700 2025
 Text GLabel 5125 3750 2    39   Input ~ 0
 GND
 Text GLabel 5125 3950 2    39   Input ~ 0
@@ -124,12 +113,10 @@ Wire Wire Line
 	5000 3950 5125 3950
 Text GLabel 6700 2625 3    39   Input ~ 0
 Garage-
-Text GLabel 6700 1350 1    39   Input ~ 0
+Text GLabel 6700 1850 1    39   Input ~ 0
 Garage+
 Wire Wire Line
 	6700 2425 6700 2625
-Wire Wire Line
-	6700 1350 6700 1450
 Text GLabel 4375 5850 0    39   Input ~ 0
 PA8
 Text GLabel 5550 2225 0    39   Input ~ 0
